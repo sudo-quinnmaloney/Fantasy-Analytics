@@ -371,7 +371,6 @@ class FantasyAnalytics(League):
 
 # TODO: import schedule and predict outcomes by who's playing
 # TODO: import team abbreviation/name dictionary to use schedule
-# TODO: allow scoping optimizations by current match-up
 if __name__ == '__main__':
     # get user input
     user = sys.argv[1] if len(sys.argv) > 1 else 'Team Bustos'
